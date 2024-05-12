@@ -37,9 +37,7 @@ body {
 }
 
 /* header related styles */
-header {
-    
-}
+header {}
 
 /* nav related styles */
 nav {
@@ -100,6 +98,7 @@ nav {
     text-align: center;
     color: white;
 }
+
 .banner-title {
     font-size: 64px;
     font-weight: 800;
@@ -121,4 +120,43 @@ nav {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.3);
     margin-top: 50px;
+}
+
+/* main related styles */
+main {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* tours related styles */
+.tours-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tour-title {
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tours-content ul {
+    padding: 20px;
+}
+
+.tours-content ul li{
+    margin-bottom: 16px;
+}
+
+.tour-description {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.tours-content button{
+    margin-top: 32px;
 }
