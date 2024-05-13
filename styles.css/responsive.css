@@ -61,4 +61,17 @@
         grid-column: 1/span 12;
         grid-row: 7/span 1;
     }
+    /* card section styles*/
+    .card-section{
+        padding: 20px;
+    }
+    .card-2-container{
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+    .card-1-container{
+        position: static;
+    }
 }
