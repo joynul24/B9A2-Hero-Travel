@@ -109,6 +109,7 @@ nav {
 .banner-description {
     font-size: 16px;
     font-weight: 400;
+    color: white;
 }
 
 .banner-input {
@@ -342,7 +343,7 @@ main {
     top: 10%;
 }
 
-.midle-img-card{
+.midle-img-card {
     border: 5px solid #fff;
     width: 579px;
     border: 2px solid rgb(255, 255, 255);
@@ -355,31 +356,168 @@ main {
     left: 5%;
 }
 
-.card-contect, .midle-img-card, span {
+.card-contect,
+.midle-img-card,
+span {
     color: rgb(90, 90, 93);
     font-size: 16px;
     font-weight: 400;
     margin-right: 25px;
 }
 
-.card-contect, .midle-img-card, h3 {
+.card-contect,
+.midle-img-card,
+h3 {
     color: rgb(19, 19, 24);
     font-size: 24px;
     font-weight: 800;
     margin-top: 25px;
 }
 
-.card-contect, .midle-img-card, p {
+.card-contect,
+.midle-img-card,
+p {
     color: rgb(90, 90, 93);
     font-size: 16px;
     font-weight: 400;
     margin-top: 16px;
 }
 
-.card-contect, .midle-img-card, h4 {
+.card-contect,
+.midle-img-card,
+h4 {
     color: rgb(255, 84, 0);
     font-size: 20px;
     font-weight: 800;
     margin-top: 16px;
     margin-bottom: 25px;
+}
+
+/* place section styles */
+.place-section {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.place-content h3 {
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.place-content p {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.place-content ul {
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.place-content ul li {
+    color: rgb(19, 19, 24);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Newsletter section */
+
+.newsletter-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container {
+    padding: 40px;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 16px;
+}
+
+.input-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.input-container input {
+    padding: 10px 25px;
+    border-radius: 6px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    color: rgba(19, 19, 24, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.input-container .sub-btn {
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 6px;
+    background: rgb(255, 84, 0);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* footer section styles*/
+footer {
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-content {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    height: 500px;
+}
+
+.foot-title {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px; 
+}
+.foot-title h5{
+    color: rgb(19, 19, 24);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.title-color{
+    color: rgb(255, 84, 0);
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.footer-content > p{
+    margin-bottom: 30px;
+}
+.footer-content img{
+    width: 10%;
+    border-radius: 50%;
+}
+.footer-content h6{
+    color: rgb(19, 19, 24);
+}
+.footer-content h3{
+    color: rgb(19, 19, 24);
+    margin-bottom: 10px;
+}
+
+.footer-content  hr{
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    margin-top: 50px;
 }
