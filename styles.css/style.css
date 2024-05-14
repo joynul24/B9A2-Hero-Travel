@@ -41,7 +41,6 @@ header {}
 
 /* nav related styles */
 nav {
-    /* border: 2px solid tomato; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -469,9 +468,10 @@ h4 {
 }
 
 /* footer section styles*/
-footer {
+.footer {
     margin-top: 100px;
     background: rgba(19, 19, 24, 0.05);
+    width: 100%;
 }
 
 .footer-content {
