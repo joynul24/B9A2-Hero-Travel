@@ -37,14 +37,15 @@ body {
 }
 
 /* header related styles */
-header {}
 
 /* nav related styles */
-nav {
+nav {    
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 50px 230px;
+    align-items: center;
+    padding: 30px 5px;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 .nav-img-title img {
